@@ -1,0 +1,15 @@
+div {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  width: 350px;
+  border: 10px solid #4285f4;}
+.north {background: #E67676;}
+.south {background: #A9E6E6;}
+p {text-align: center;
+padding: 50px;
+margin: 0px;}
+br {display: block;
+   margin: 3px 0;
+}

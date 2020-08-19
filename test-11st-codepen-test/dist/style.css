@@ -1,0 +1,16 @@
+h1, h2 {
+  color:red;
+  padding: 10px;
+  width: 8%;
+  background: blue;
+  border: solid 10px green;
+  margin: 20px;
+}
+
+.class1 {
+    /* Note: 1st list will be set with linked google font. */
+    font-family: 'Luckiest Guy', cursive;
+  color: green;
+  font-size: 20px;
+  text-shadow: black 0px 0 30px; 
+}

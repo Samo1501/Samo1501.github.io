@@ -1,0 +1,11 @@
+img {
+  width: 150px
+}
+
+div {display: flex;}
+section {
+width: 200px;
+text-align: center;
+font-family: 'Sen', sans-serif;}
+
+a {display: block}

@@ -1,0 +1,44 @@
+.holder {
+  width:800px
+} 
+
+header {
+  background: cyan;
+  height: 125px;
+}
+
+main {
+  height: 800px;
+  display: flex;
+}
+
+.sidebar_L {
+  background: orange;
+  flex-grow: 2;
+}
+
+.main_content {
+  background: red;
+  width: 65%;  
+  position: relative;
+  margin: 0px 25px 0px 25px;
+}
+  
+.black_square {
+  background: black;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.sidebar_R {
+  background: purple;
+  flex-grow: 2;
+}
+
+footer {
+  background: blue;
+  height: 125px;
+}

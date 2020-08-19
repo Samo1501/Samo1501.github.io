@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  height: 500px;
+  margin: 80px 100px 10px
+}
+
+header {
+  padding: 10px 90px;
+  background-color: purple;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  background-color: cyan;
+  display: block;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+}
+.longer {
+  width: 150px;
+}
+
+side {
+  background-color: lime;
+  flex-grow: 1;
+}
+
+.major_area {
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 80px;
+  margin: 0px 100px
+}

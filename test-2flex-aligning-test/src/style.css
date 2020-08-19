@@ -1,0 +1,22 @@
+main {
+  display: flex;
+}
+
+.left {
+  background: yellow;
+  height: 800px;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background: red;
+  height: 100px;
+  width: 100px;
+}
+.right {
+  background: red;
+  flex-grow: 1;
+}
