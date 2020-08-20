@@ -1,6 +1,7 @@
 a {display: flex;
 flex-direction: column;
 font-weight: bold;
+width: 400px;
 width: max-content;}
 
 p {
