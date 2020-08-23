@@ -71,6 +71,7 @@ let printvalues99 = (array99) => {
     for (let i = 0; i < array99.length; i++) {console.log(array99[i]);
     }
 };
+printvalues99(array99)
 //-----------------------------------------------------------------End of exercise 4.4.4 (For loops and arrays 1)--------------------------------------------------------------//
 
 
