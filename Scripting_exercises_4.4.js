@@ -79,8 +79,9 @@ let printvalues99 = (array99) => {
 
 
 //--------------------------------------------------------------Beginning of exercise 4.4.5 (For loops and arrays 2)--------------------------------------------------------------//
-console.log('Loops and arrays exercise 2 - since I didnt make 1st exercise to work, cant continue with this one either')
+console.log('Loops and arrays exercise 2')
 let mynumbers22 = [10, 20, 30, 50, 12];
-
-
+mynumbers22.forEach(mynumbers22 => {
+    console.log(mynumbers22)
+})
 //-----------------------------------------------------------------End of exercise 4.4.5 (For loops and arrays 2)--------------------------------------------------------------//
