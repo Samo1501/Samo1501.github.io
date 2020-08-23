@@ -34,13 +34,13 @@ for (let i = 1; i <= bookcount2; i++) {if (i % 2 == 0) {console.log(i);}}
 
 
 //--------------------------------------------------------------Beginning of exercise 4.4.2 (Functions 1)--------------------------------------------------------------//
-console.log('Functions exercise 1a - I have no slightest idea what is the goal here - what are we doing or why')
+console.log('Functions exercise 1a - I have no slightest idea what is the goal here - what are we doing and why')
 // let numtill20 = 20;
 // let printnumbers1 = (numtill20) => {for (let i = 0; i < numtill20; i++) {console.log(i)}};
 // console.log(printnumbers1)
 
 
-console.log('Functions exercise 1b - I have no slightest idea what is the goal here - what are we doing or why')
+console.log('Functions exercise 1b - I have no slightest idea what is the goal here - what are we doing and why')
 // let numtill15 = 15;
 // let printnumbers2 = (numtill15) => {for (let i = 0; i < numtill15; i++) {console.log(i)}};
 // console.log(printnumbers2)
@@ -57,6 +57,7 @@ console.log('Functions exercise 2 - I understood more or less, but without keepi
 let person = 'Mark';
 let getgreetingto = (person) => {return "Hello, " + person;}
 console.log(getgreetingto(person),'!')
+console.log(' ')
 //-----------------------------------------------------------------End of exercise 4.4.3 (Functions 2)--------------------------------------------------------------//
 
 
@@ -64,9 +65,12 @@ console.log(getgreetingto(person),'!')
 
 
 //--------------------------------------------------------------Beginning of exercise 4.4.4 (For loops and arrays 1)--------------------------------------------------------------//
-
-
-
+console.log('Loops and arrays exercise 1 - NOT WORKING, no idea whats wrong')
+let array99 = [0, 3, 6, 7, 9];
+let printvalues99 = (array99) => {
+    for (let i = 0; i < array99.length; i++) {console.log(array99[i]);
+    }
+};
 //-----------------------------------------------------------------End of exercise 4.4.4 (For loops and arrays 1)--------------------------------------------------------------//
 
 
@@ -75,7 +79,8 @@ console.log(getgreetingto(person),'!')
 
 
 //--------------------------------------------------------------Beginning of exercise 4.4.5 (For loops and arrays 2)--------------------------------------------------------------//
-
+console.log('Loops and arrays exercise 2 - since I didnt make 1st exercise to work, cant continue with this one either')
+let mynumbers22 = [10, 20, 30, 50, 12];
 
 
 //-----------------------------------------------------------------End of exercise 4.4.5 (For loops and arrays 2)--------------------------------------------------------------//
