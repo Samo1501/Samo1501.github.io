@@ -1,0 +1,14 @@
+a {display: flex;
+flex-direction: column;
+font-weight: bold;
+width: max-content;}
+
+p {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+}
+
+br {margin: 5px}
+
+a:hover {color: rgb(0, 143, 0);}
