@@ -1,0 +1,87 @@
+body {
+    width: 1000px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(94, 94, 94);
+    height: 60px;
+    font-size: 15px;
+    align-items: center;
+    border: solid 1px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#blog {
+    margin-left: 10%;
+}
+main {
+    width: 800px;
+    margin-left: 10%;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("image-analysis.png");
+    /* background-color: rgb(114, 245, 38); */
+}
+
+img {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    white-space:wrap;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+p {
+    margin: 5px;
+    }
+
+h3 {
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    }
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#i01 {
+    width: 200px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+.FitWidth, .FitWidthPost {
+    width: 100%;
+    border: 1px solid;
+    /* padding: 5px; */
+    text-align: justify;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.FitWidthPost {
+    margin-bottom: 10px;
+}
+
+
