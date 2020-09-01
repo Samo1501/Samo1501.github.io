@@ -74,9 +74,9 @@ textarea {
 
 .FitWidth, .FitWidthPost {
     width: 100%;
-    border: 1px solid;
+    border: 1px solid; /*the borders cause the text area to be larger!!!!!*/
     /* padding: 5px; */
-    text-align: justify;
+    text-align: justify; 
     font-family: 'Balsamiq Sans', cursive;
 }
 
