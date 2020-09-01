@@ -1,0 +1,76 @@
+header {
+    background-color: rgb(236, 65, 13);
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.header-menu-area {
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.header-name-area {
+/* background-color: teal; */
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#idName {
+/* background-color: tomato; */
+color: white;
+margin-right: 100px;
+margin-left: 50px;
+width: 70%;
+font-size: 50px;
+}
+
+#idSvk {
+height: 75%;
+margin-right: 50px;
+}
+
+a {
+    font-size: 30px;
+    margin: 50px;
+    padding-top: 10px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px blue;
+    color: black;
+}
+
+a:visited {
+    color: rgb(136, 136, 136);
+  }
+
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 900;
+  }
+  
+a:active {
+    color: rgb(0, 204, 255);
+  }
+
+  #myname {
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+  }
+
+  main {
+      width: 900px;
+      border-left: 5px solid #000;
+      padding-left: 10px;
+  }
