@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W06-D02-formLogin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./W06-D02-formLogin.css">
+</head>
+<body>
+
+<div id="formHolder">
+    <br>
+    <form method="POST">
+        <p>ACCOUNT LOGIN</p>
+        <label for="username">USERNAME</label><br>
+        <input type="text" id="username" name="username" required>
+<br>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="password" name="password" required>
+        <i class="material-icons" id="icon" onclick="myFunction()">visibility_off</i >
+
+<br>
+<a href="" id="forgotPass">Forgot Password?</a>
+<br>
+        <input type="submit" id="submit" value="Login">
+    </form>
+</div>
+
+<script>
+    function myFunction() {
+      var pass = document.getElementById("password");
+      var icon = document.getElementById("icon");
+      if (pass.type === "password") {
+        pass.type = "text";
+        icon.innerHTML = "visibility";
+      } else {
+        pass.type = "password";
+        icon.innerHTML = "visibility_off";
+      }
+    }
+    </script>
+</body>
+</html>

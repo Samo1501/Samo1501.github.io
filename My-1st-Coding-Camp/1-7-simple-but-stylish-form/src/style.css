@@ -1,6 +1,8 @@
 div {font-family: 'Rowdies', cursive;
 font-size: 120%; margin-bottom: 7px;}
+
 label {display: block}
+
 input {display: block; width:300px;
 border: solid lime}
 
